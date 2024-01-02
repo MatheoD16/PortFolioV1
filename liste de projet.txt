@@ -1,0 +1,12 @@
+Projet marathon -> php/laravel
+Raytracer -> java
+Site webTracer -> php/laravel
+
+
+Projet Pokédex -> python/Flask
+
+
+Projets perso 
+
+Tic-Tac-Toe -> java
+Football Checker -> java
