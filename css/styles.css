@@ -11287,14 +11287,29 @@ header.masthead .post-heading .meta a {
     grid-template-columns: 1fr; /* Change to a single column on smaller screens */
   }
 
-  .projet1,
-  .projet2,
-  .projet3,
-  .projet4,
-  .projet5,
+  .projet1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .projet2 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .projet3 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .projet4 {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .projet5 {
+    grid-row: 5;
+    grid-column: 1;
+  }
   .projet6 {
-    grid-column: auto; /* Reset grid-column property */
-    grid-row: auto; /* Reset grid-row property */
+    grid-row: 6; /* Reset grid-row property */
+    grid-column: 1;
   }
 }
 
