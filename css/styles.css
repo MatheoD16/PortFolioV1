@@ -11089,6 +11089,7 @@ header.masthead .post-heading .meta a {
   }
   header.masthead .post-heading .subheading {
     font-size: 1.875rem;
+    text-align: center;
   }
 }
 
@@ -11305,4 +11306,21 @@ header.masthead .post-heading .meta a {
       20em
     ); /* Two columns with increased width */
   }
+}
+
+.post-heading h1 {
+  text-align: center;
+}
+
+.projet-image {
+  max-width: 100%; /* Définit la largeur maximale à 100% de son conteneur parent */
+  height: auto; /* Permet à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+  display: block; /* Supprime l'espace sous l'image dû à la valeur par défaut inline */
+  margin: 0 auto; /* Centre l'image horizontalement dans son conteneur parent */
+  border: 2px;
+  border-radius: 5%;
+}
+.description-image {
+  padding-top: 3%;
+  text-align: center;
 }
