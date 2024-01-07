@@ -11324,3 +11324,7 @@ header.masthead .post-heading .meta a {
   padding-top: 3%;
   text-align: center;
 }
+
+.description p {
+  text-align: justify;
+}
